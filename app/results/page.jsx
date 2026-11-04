@@ -3,7 +3,7 @@
 import { AlertCircle, Award, Home, Medal, Trophy, Zap } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { supabase } from "../../lib/supabase";
+import { supabase } from "../lib/supabase";
 
 export default function LeaderboardPage() {
   const [submissions, setSubmissions] = useState([]);

@@ -1,7 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
 import { Readable } from "stream";
-import { drive } from "../../../lib/drive";
+import { drive } from "../../lib/drive";
 
 export async function POST(request) {
   try {
